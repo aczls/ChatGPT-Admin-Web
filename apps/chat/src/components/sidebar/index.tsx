@@ -63,7 +63,7 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
   // 设置
   const config = useSettingStore((state) => state.config);
 
-  const notice = useNoticeStore((store) => store.notice) ?? "当前无公告";
+  const notice = useNoticeStore((store) => store.notice) ?? "客服QQ2630599237","客服QQ2630599237";
 
   const { data: rateLimit, isLoading: rateLimitLoading } = useLimit();
 
@@ -140,7 +140,7 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
                 router.push("/pricing");
               }}
             >
-              点我充值
+              查看订阅
             </div>
           </div>
         )}
