@@ -31,31 +31,31 @@ const prices: Price[] = [
   {
     name: "Free",
     price: {
-      monthly: 0,
-      quarterly: 0,
-      yearly: 0,
+      monthly: 168,
+      quarterly: 499,
+      yearly: 1999,
     },
-    features: ["每小时 25 次免费问答", "每天 1 次 GPT-4 免费问答"],
+    features: ["GPT-3.5 每3小时 5 次问答", "每天 150 次 GPT-4 问答", "因为用的是4.0的api key防止浪费所以限制GPT-3.5使用次数","使用gpt-3.5请前往https://chatxc.xzy/ 可免费无限使用"],
   },
   {
     name: "Pro",
     price: {
-      monthly: 140,
-      quarterly: 500,
-      yearly: 1400,
+      monthly: 999,
+      quarterly: 999,
+      yearly: 999,
     },
-    features: ["GPT-3.5 无限制问答", "每天 50 次 GPT-4 免费问答"],
+    features: ["开发中"],
   },
   {
     name: "Premium",
     price: {
-      monthly: 168,
-      quarterly: 600,
-      yearly: 1700,
+      monthly: 999,
+      quarterly: 999,
+      yearly: 999,
     },
     features: [
-      "GPT-3.5 无限制问答",
-      "每天 150 次 GPT-4 免费问答",
+      "开发中",
+     
     ],
   },
 ];
