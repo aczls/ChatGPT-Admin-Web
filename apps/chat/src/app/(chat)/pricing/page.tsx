@@ -96,7 +96,7 @@ function PricingItem(props: {
         <div className={styles["purchase-wrapper"]}>
           <IconButton
             icon={<span>🎁</span>}
-            text={"购买"}
+            text={"XC"}
             className={styles["purchase"] + " no-dark"}
             onClick={() => handleUpgrade(props.price.name, props.cycle)}
           />
