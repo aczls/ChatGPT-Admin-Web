@@ -129,9 +129,9 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
         {rateLimit && (
           <div className={styles["sidebar-balance-box"]}>
             <div className={styles["sidebar-balance"]}>
-              <div className={styles["sidebar-balance-title"]}>请将设置中的模型更换为GPT-4</div>
+              <div className={styles["sidebar-balance-title"]}>官方账号购买：</div>
               <div className={styles["sidebar-balance-num"]}>
-              
+               chatxc.top
               </div>
             </div>
             <div
