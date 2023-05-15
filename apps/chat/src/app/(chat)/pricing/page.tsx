@@ -35,7 +35,7 @@ const prices: Price[] = [
       quarterly: 0,
       yearly: 0,
     },
-    features: ["每小时 10 次免费问答", "每天 1 次 GPT-4 免费问答"],
+    features: ["每小时 25 次免费问答", "每天 1 次 GPT-4 免费问答"],
   },
   {
     name: "Pro",
@@ -44,7 +44,7 @@ const prices: Price[] = [
       quarterly: 79,
       yearly: 259,
     },
-    features: ["每三小时 50 次 GPT-3.5 问答", "每天 3 次 GPT-4 免费问答"],
+    features: ["GPT-3.5 无限制问答", "每天 50 次 GPT-4 免费问答"],
   },
   {
     name: "Premium",
@@ -54,9 +54,8 @@ const prices: Price[] = [
       yearly: 999,
     },
     features: [
-      "New Bing 免费",
       "GPT-3.5 无限制问答",
-      "每天 10 次 GPT-4 免费问答",
+      "每天 150 次 GPT-4 免费问答",
     ],
   },
 ];
@@ -151,7 +150,7 @@ export default function PricingPage() {
           onClick={() => handlePaymentCycle("quarterly")}
         >
           季付
-          <span className={styles["discount-badge"]}>八五折</span>
+          <span className={styles["discount-badge"]}></span>
         </button>
         <button
           className={`${styles.button} ${styles["button-with-badge"]} ${
@@ -160,7 +159,7 @@ export default function PricingPage() {
           onClick={() => handlePaymentCycle("yearly")}
         >
           年付
-          <span className={styles["discount-badge"]}>七折</span>
+          <span className={styles["discount-badge"]}></span>
         </button>
       </div>
 
