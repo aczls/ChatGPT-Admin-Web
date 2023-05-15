@@ -35,7 +35,7 @@ const prices: Price[] = [
       quarterly: 499,
       yearly: 1999,
     },
-    features: ["GPT-3.5 每3小时 5 次问答", "GPT-4每天 150 次 GPT-4 问答"],
+    features: ["GPT-3.5 每3小时 5 次问答", "GPT-4每天 150 次 GPT-4 问答", "购买和续费链接：chatxc.top"],
   },
   {
     name: "Pro",
