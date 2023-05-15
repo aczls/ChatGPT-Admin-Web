@@ -29,7 +29,7 @@ const emptyData = {
     },
     "gpt-4": {
       window: "3h",
-      limit: 0,
+      limit: 5,
     },
   },
   prices: {
