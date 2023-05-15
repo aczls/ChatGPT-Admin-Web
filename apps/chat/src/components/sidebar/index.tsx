@@ -131,7 +131,7 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
             <div className={styles["sidebar-balance"]}>
               <div className={styles["sidebar-balance-title"]}>官方账号购买：</div>
               <div className={styles["sidebar-balance-num"]}>
-               chatxc.top
+               www.chatxc.top
               </div>
             </div>
             <div
