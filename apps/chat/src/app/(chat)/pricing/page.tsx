@@ -35,7 +35,7 @@ const prices: Price[] = [
       quarterly: 499,
       yearly: 1999,
     },
-    features: ["GPT-3.5 每3小时 5 次问答", "每天 150 次 GPT-4 问答", "因为用的是4.0的api key防止浪费所以限制GPT-3.5使用次数","使用gpt-3.5请前往https://chatxc.xzy/ 可免费无限使用"],
+    features: ["GPT-3.5 每3小时 5 次问答", "GPT-4每天 150 次 GPT-4 问答"],
   },
   {
     name: "Pro",
@@ -44,7 +44,7 @@ const prices: Price[] = [
       quarterly: 999,
       yearly: 999,
     },
-    features: ["开发中"],
+    features: ["因为用的是4.0的api key防止浪费所以限制GPT-3.5使用次数","使用gpt-3.5请前往chatxc.xzy 可免费无限使用"],
   },
   {
     name: "Premium",
@@ -54,7 +54,7 @@ const prices: Price[] = [
       yearly: 999,
     },
     features: [
-      "开发中",
+      "请在设置中更换模型为GPT-4","其他数值建议默认 可更改附带历史消息数"
      
     ],
   },
