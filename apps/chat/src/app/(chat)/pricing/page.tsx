@@ -40,18 +40,18 @@ const prices: Price[] = [
   {
     name: "Pro",
     price: {
-      monthly: 30,
-      quarterly: 79,
-      yearly: 259,
+      monthly: 140,
+      quarterly: 500,
+      yearly: 1400,
     },
     features: ["GPT-3.5 无限制问答", "每天 50 次 GPT-4 免费问答"],
   },
   {
     name: "Premium",
     price: {
-      monthly: 129,
-      quarterly: 326,
-      yearly: 999,
+      monthly: 168,
+      quarterly: 600,
+      yearly: 1700,
     },
     features: [
       "GPT-3.5 无限制问答",
@@ -95,7 +95,7 @@ function PricingItem(props: {
       {props.price.name !== "Free" && (
         <div className={styles["purchase-wrapper"]}>
           <IconButton
-            icon={<span>🎁</span>}
+            icon={<span></span>}
             text={"购买"}
             className={styles["purchase"] + " no-dark"}
             onClick={() => handleUpgrade(props.price.name, props.cycle)}
