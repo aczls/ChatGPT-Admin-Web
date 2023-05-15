@@ -129,9 +129,9 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
         {rateLimit && (
           <div className={styles["sidebar-balance-box"]}>
             <div className={styles["sidebar-balance"]}>
-              <div className={styles["sidebar-balance-title"]}>当前余量</div>
+              <div className={styles["sidebar-balance-title"]}>chatxc.top</div>
               <div className={styles["sidebar-balance-num"]}>
-                <span>{rateLimit.remaining}</span>次
+                请在设置中更换为GPT-4模型
               </div>
             </div>
             <div
