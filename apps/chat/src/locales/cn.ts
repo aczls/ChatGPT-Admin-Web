@@ -2,7 +2,7 @@ const title = process.env.NEXT_PUBLIC_TITLE;
 
 const cn = {
   Index: {
-    Title: title || "ChatGPT Admin",
+    Title: title || "Chat XC",
     SubTitle: "欢迎关注微信公众号：",
     Submit: "提交",
     Login: "登录",
@@ -26,7 +26,7 @@ const cn = {
   Error: {
     Unauthorized: "现在是未登录状态，请刷新浏览器缓存并登录。",
     TooManyRequests:
-      "您的账户在三小时内的使用次数已达到最大请求数，请稍后再试。\n 如果您需要更多的使用次数，可在用户信息中查看付费计划。",
+      "您的账户使用次数已达到最大请求数，请稍后再试。",
     TooFastRequests: "请求地太快啦，稍等一下（请求间隔5秒）。",
     ContentBlock: "请检查文本中的敏感词，如有误杀请联系客服。",
   },
@@ -53,18 +53,18 @@ const cn = {
       Title: "计划",
     },
     Invite: {
-      Title: "邀请他人",
-      SubTitle: "成功邀请他人可获得重置次数和充值折扣",
-      Code: "邀请码",
-      InviteLink: "邀请链接",
-      CopyInviteLink: "复制邀请链接",
-      InviteeNumber: "当前邀请人数",
+      Title: "待开发",
+      SubTitle: "待开发",
+      Code: "待开发",
+      InviteLink: "待开发",
+      CopyInviteLink: "待开发",
+      InviteeNumber: "待开发",
     },
     Upgrade: "升级",
     Reset: {
-      Title: "重置当前限制",
-      SubTitle: "可将固定时间内的消息条数限制清空",
-      Click: (t: number) => `清空一次 剩余: ${t}`,
+      Title: "待开发",
+      SubTitle: "待开发",
+      Click: (t: number) => `待开发 剩余: ${t}`,
     },
     RateLimit: {
       Title: (t: number) => `固定时间内消息条数限制（${t}小时）`,
