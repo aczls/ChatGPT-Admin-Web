@@ -25,7 +25,7 @@ const emptyData = {
   limits: {
     "gpt-3.5-turbo": {
       window: "3h",
-      limit: 0,
+      limit: 2,
     },
     "gpt-4": {
       window: "3h",
