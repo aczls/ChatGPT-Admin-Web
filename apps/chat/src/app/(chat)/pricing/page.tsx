@@ -44,7 +44,7 @@ const prices: Price[] = [
       quarterly: 999,
       yearly: 999,
     },
-    features: ["因为用的是4.0的api key防止浪费所以限制GPT-3.5使用次数","使用gpt-3.5请前往chatxc.xzy 可免费无限使用"],
+    features: ["因为用的是4.0的api key防止浪费所以限制GPT-3.5使用次数","使用gpt-3.5请前往chatxc.xyz 可免费无限使用"],
   },
   {
     name: "Premium",
